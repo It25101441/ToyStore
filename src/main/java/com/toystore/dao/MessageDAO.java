@@ -1,4 +1,12 @@
+package com.toystore.dao;
 
+import com.toystore.model.Message;
+import com.toystore.model.Notification;
+import com.toystore.model.User;
+import com.toystore.utils.DBConnection;
+import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class MessageDAO {
 
